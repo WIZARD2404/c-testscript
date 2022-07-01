@@ -1,12 +1,21 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * The main code starts here
  * This code will accept an input and print my initials, age ,sex
  */
 int main(void){
+        /*
+         * Type Definition:
+         * int (which means Integers), char(Characters)
+         * long: allocates 8 bytes of memory
+         */
         char a, b, c;
         int age;
         long char name, sex;
+        /*
+         * prinf() function prints string, characters, integers embedded inside the parentheses
+         * scanf() accepts an input and passes it to the address(&(any acceptable keyword)) 
+         */
         printf ("Enter your name");
         scanf("%c",&name)
         printf ("Enter your Initials:");
